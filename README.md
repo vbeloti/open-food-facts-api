@@ -53,14 +53,6 @@ _ou_
 
 $ npm install
 
-** Rodando as migrações **
-
-$ yarn typeorm migration:run
-
-_ou_
-
-$ npm run typeorm migration:run
-
 ### Executando o ambiente de desenvolvimento
 
 $ yarn dev
