@@ -37,7 +37,7 @@ async function scraper(browser: Browser, url: string, storeService: StoreService
 
 let counter = 0;
 
-async function run(maxPage = 1) {
+async function run(maxPage = 5) {
   const productRepository = new ProductRepository();
   const storeService = new StoreService(productRepository);
   connection();
@@ -55,7 +55,7 @@ async function run(maxPage = 1) {
 
     try {
       const results = await scraper(browser, url, storeService);
-      console.log(`URL: https://world.openfoodfacts.org/${index} Scrapped on ${Date.now()}`);
+      console.log(`URL: https://world.openfoodfacts.org/${index} Scrapped on ${new Date()}`);
       data = data.concat(results);
     } catch (error) {
       console.error(error);
