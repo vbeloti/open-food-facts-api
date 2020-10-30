@@ -8,7 +8,8 @@
     - [Instalando](#instalando)
     - [Executando o ambiente de desenvolvimento](#executando-o-ambiente-de-desenvolvimento)
     - [Executando os testes](#executando-os-testes)
-    - [Executando o CRON](#executando-o-CRON)
+    - [Executando o CRON](#executando-o-cron)
+    - [Executando o Docker](#executando-o-docker)
     - [Recursos](#recursos)
     - [Rota /](#rota-/)
     - [Rota Produtos](#rota-produtos)
@@ -83,6 +84,10 @@ $ yarn cron
 _ou_
 
 $ npm run cron
+
+### Executando o Docker
+
+$ docker-compose up
 
 ## Recursos
 
