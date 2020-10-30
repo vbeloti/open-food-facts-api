@@ -12,6 +12,10 @@
   },
   "servers": [
     {
+      "url": "https://open-food-facts.herokuapp.com/",
+      "description": "Heroku server"
+    },
+    {
       "url": "http://localhost:3333/",
       "description": "Local server"
     }
